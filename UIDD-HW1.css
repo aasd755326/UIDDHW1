@@ -1,0 +1,121 @@
+body {
+    background: rgba(0, 0, 0, .1);
+    margin: 0; 
+}
+
+#main{
+    width: 1920px;
+    height: 1080px;
+    background: #8A9B97 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    box-sizing: border-box;
+    position: relative;
+    top: 0; 
+}
+
+@font-face{
+    font-family:NotoSansCJKTC-Medium;
+    src: url(./font/NotoSansCJKtc-Medium.otf) format("opentype");
+}
+
+cl.stext, cl.text{
+    background-position: center;
+    display: block;
+    position: absolute;
+    text-align: left;
+    font-family: NotoSansCJKTC-Medium, Microsoft JhengHei;
+    color: #FDFAE7;
+}
+
+cl.stext{
+    height: 19px;
+    font-size: 13px;
+    letter-spacing: 1.6px;
+}
+
+cl.text{
+    height: 46px;
+    font-size: 31px;
+    letter-spacing: 4.2px;
+    top: 129px;
+    width: 141px;
+}
+
+cl.pic {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.stext.language{
+    top: 35px;
+    left: 1708px;
+    width: 84px;
+}
+
+.stext.login{
+    top: 35px;
+    left: 1816px;
+    width: 66px;
+}
+
+.text.about{
+    left: 227px;
+}
+
+.text.intro{
+    left: 531px;
+}
+
+.text.contact{
+    left: 1249px;
+}
+
+.text.booking{
+    left: 1553px;
+}
+
+cl.line{
+    top: 203px;
+    left: 187px;
+    width: 1548px;
+    border: 2px solid #FDFAE7;
+    position: absolute
+}
+
+cl.content{
+    top: 334px;
+    left: 835px;
+    width: 930px;
+    height: 610px;
+    text-align: left;
+    font-family: NotoSansCJKTC-Medium, Microsoft JhengHei;
+    font-size: 31px;
+    letter-spacing: 5.58px;
+    color: #FDFAE7;
+    position: absolute
+}
+
+.pic.hotel{
+    top: 107px;
+    left: 835px;
+    width: 258px;
+    height: 75px;
+    background-image: url(./pic/Hotel.png);
+}
+
+.pic.p1{
+    top: 521px;
+    left: 298px;
+    width: 498px;
+    height: 566px;
+    background-image: url(./pic/person1.png);
+}
+.pic.p2{
+    top: 540px;
+    left: 54px;
+    width: 347px;
+    height: 543px;
+    background-image: url(./pic/person2.png);
+}
